@@ -5,3 +5,7 @@ output/
 
 # Temporary file directory
 tmp/
+
+.bundle/
+.sass-cache/
+*.log
