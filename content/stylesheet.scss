@@ -1,0 +1,10 @@
+@import 'vendor/_normalize';
+@import 'vendor/bourbon/_bourbon';
+@import "vendor/neat/neat";
+@import "vendor/bitters/bitters";
+
+section {
+  @include outer-container;
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
